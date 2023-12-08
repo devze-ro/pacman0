@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/builds-debug/windows-msvc/pacman0.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/builds-debug/windows-msvc/",
+            "environment": [],
+            "console":"newExternalWindow",
+        },
+        {
+            "name": "(Linux) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/builds-debug/linux/pacman0",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/builds-debug/linux/",
+            "environment": [],
+        }
+    ],
+    "version": "2.0.0"
+}

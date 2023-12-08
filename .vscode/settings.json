@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "defines.h": "c",
+        "algorithm": "c",
+        "atomic": "c",
+        "memory": "c",
+        "string": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "vector": "c",
+        "xmemory": "c",
+        "xstring": "c",
+        "xutility": "c"
+    }
+}
