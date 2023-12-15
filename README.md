@@ -13,7 +13,7 @@ build-linux.sh -d -r
 
 On MacOS:
 ```sh
-build-osx.sh -d -r.
+build-osx.sh -d -r
 ```
 
 ## Reference
