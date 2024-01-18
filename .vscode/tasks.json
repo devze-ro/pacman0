@@ -2,13 +2,17 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "Build",
+            "label": "Build & Debug",
             "windows": {
-                "command": "${workspaceFolder}/build-windows.bat -d",
+                "command": "${workspaceFolder}/build-windows.bat",
             },
             "linux": {
-                "command": "${workspaceFolder}/build-linux.sh -d",
+                "command": "${workspaceFolder}/build-linux.sh",
             },
+            "args": [
+                "-d",
+                "-DDEBUG"
+            ],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
@@ -18,6 +22,25 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "Build",
+            "windows": {
+                "command": "${workspaceFolder}/build-windows.bat",
+            },
+            "linux": {
+                "command": "${workspaceFolder}/build-linux.sh",
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build"
             }
         }
     ],

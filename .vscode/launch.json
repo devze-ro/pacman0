@@ -7,7 +7,7 @@
             "program": "${workspaceFolder}/builds-debug/windows-msvc/pacman0.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/builds-debug/windows-msvc/",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "console":"newExternalWindow",
         },
@@ -18,7 +18,7 @@
             "program": "${workspaceFolder}/builds-debug/linux/pacman0",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/builds-debug/linux/",
+            "cwd": "${workspaceFolder}",
             "environment": [],
         }
     ],
